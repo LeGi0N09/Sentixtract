@@ -1,0 +1,5 @@
+Before running the project please ensure 
+
+1. Install all the python dependencies mentioned in requirement.txt 
+2. Setup your twitter bearer token in the project
+3. Setup your google perspective api in the project

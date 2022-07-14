@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-size: 4.5rem;
+    text-shadow: 1px 1px;
+    font-family: 'PT Sans', sans-serif;
+    text-shadow: 1px 0.5px;
+    color: rgba(37, 4, 80, 0.61);
+    
+}
+.hero{
+
+    min-height: 90vh;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+main{
+    margin-top: 20rem;
+}
+.try{
+    margin-top: 2rem;
+    border: none;
+    font-size: 2.6rem;
+    cursor: pointer;
+  
+}
+
+.body1{
+   
+        margin: 0;
+        width: 100vw;
+        height: 100vh;
+        background: #ecf0f3;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        place-items: center;
+        overflow: hidden;
+        font-family: poppins;
+      
+      
+}
+.container {
+    position: relative;
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #ecf0f3;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+  }
+  .brand-logo {
+    height: 100px;
+    width: 100px;
+    background: url("https://img.icons8.com/color/100/000000/twitter--v2.png");
+    margin: auto;
+    border-radius: 50%;
+    box-sizing: border-box;
+    box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+  }
+  .brand-title {
+    margin-top: 10px;
+    font-weight: 900;
+    font-size: 1.8rem;
+    color: #1DA1F2;
+    letter-spacing: 1px;
+  }
+  .inputs {
+    text-align: left;
+    margin-top: 30px;
+  }
+  
+  label, input, button {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+  }
+  
+  label {
+    margin-bottom: 4px;
+  }
+  
+  label:nth-of-type(2) {
+    margin-top: 12px;
+  }
+  
+  input::placeholder {
+    color: gray;
+  }
+  
+  input {
+    background: #ecf0f3;
+    padding: 10px;
+    padding-left: 20px;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  }
+  
+  button {
+    margin-top: 20px;
+    background: #1DA1F2;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 900;
+    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+    transition: 0.5s;
+  }
+  
+  button:hover {
+    box-shadow: none;
+  }
+  .check{
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+
+  
+
+  
+
+
+
+
+
+/* 
+.form-section{
+   
+ 
+ 
+min-height: 60vh;    
+    margin: 15rem 15rem;
+   display: flex;
+   justify-content: center;
+  
+
+}
+.block{
+    box-shadow: 7px 7px 8px 7px #dfdede;
+    
+}
+.form-section form{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    padding: 2rem 5rem;
+    border-radius: 6rem;
+
+   
+    
+}
+.form-section label,input,button{
+    
+            font-size: 3rem;
+            text-align: center;
+}
+.form-section button{
+    margin-top: 3rem;
+    
+} */

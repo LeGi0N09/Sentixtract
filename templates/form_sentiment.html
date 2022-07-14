@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <title>Extract Tweets</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-dark bg-dark p-4">
+    <div class="container-fluid">
+      <div class="text-white mb-0 h4">Tweet sentiment analysis regarding covid</div>
+      <a href="./" class="btn btn-outline-light mt-3">Back To Home</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row mt-5 flex justify-content-evenly">
+      <div class="col-6">
+        <div class="display-6 text-primary">
+          Tweet sentiment analysis regarding covid
+        </div>
+        <div class="mt-4">
+          <p>
+            Here is the form asking for a statement that will provide results in the form of sentiment (Positive, Negative, Neutral) using LSTM model.
+          </p>
+          <img src="../static/sentiment-analysis.png" class="img-fluid" alt="">
+        </div>
+      </div>
+      <div class="col-5">
+        <div class="display-6 text-primary">
+          Please fill the form to predict tweet
+        </div>
+        <form method="POST" action="{{url_for('home')}}">
+          <div class="form-group mt-3">
+            <label for="Hashtag" class="h3">Statement</label>
+            <input type="text" name="a" required class="form-control" id="Hashtag"
+              placeholder="Please enter your statement">
+            <small id="emailHelp" class="form-text text-muted">
+              This analysis would be based on COVID dataset
+            </small>
+          </div>
+          <button type="submit" value="Extract" class="btn btn-outline-primary mt-3">Analysis</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
+
+
+<!-- <form method="POST", action="{{url_for('home')}}">
+           <b> Tweet :  <input type="text", name='a', placeholder="Tweet Text"> <br><br></b>
+            <input type="submit" , value='predict Sentiment!' >
+        </form> -->

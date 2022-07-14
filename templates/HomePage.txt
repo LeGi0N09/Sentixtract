@@ -1,0 +1,5 @@
+HomePage
+Extract tweets: json  
+Tweet sentiment analysis regarding covid
+Emotion sentiment analysis using Perspective
+Extract tweets according to hastag with analysis using textblob(csv)

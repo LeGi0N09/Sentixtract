@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://cdn.tailwindcss.com"></script>
+	<script src="https://kit.fontawesome.com/a2ad5b1fcd.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-gray-600 p-3">
+	<div class="text-white py-5 px-10 w-full border border-white" style="height: 10vh;">
+		<div class="text-3xl">
+			Semester 7 Project
+		</div>
+	</div>
+	<div class="text-white max-h-screen mt-5 w-full border border-white" style="height: 80vh;">
+		<div class="flex justify-evenly h-full items-center">
+			<div class="block p-6 rounded-lg shadow-lg bg-gray-100 w-1/5 h-min">
+				<h5 class="text-gray-900 text-xl leading-tight font-medium mb-2">Extract Tweet To JSON</h5>
+				<p class="text-gray-700 text-base mb-4">
+					Extract Tweet with any hashtags and any number of tweets.
+				</p>
+				<a href="{{url_for('form')}}" class=" cursor-pointer inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase
+					rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg
+					focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150
+					ease-in-out">Visit</a>
+			</div>
+			<div class="block p-6 rounded-lg shadow-lg bg-gray-100 w-1/5 h-min">
+				<h5 class="text-gray-900 text-xl leading-tight font-medium mb-2">Tweet sentiment analysis regarding
+					covid</h5>
+				<p class="text-gray-700 text-base mb-4">
+					Predict the sentiment of the provided tweet using pre-existing model ( COVID model )
+				</p>
+				<a href="{{url_for('form_sentiment')}}"
+					class="cursor-pointer inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Visit</a>
+			</div>
+			<div class="block p-6 rounded-lg shadow-lg bg-gray-100 w-1/5 h-min">
+				<h5 class="text-gray-900 text-xl leading-tight font-medium mb-2">
+					Analysis using perspective API
+				</h5>
+				<p class="text-gray-700 text-base mb-4">
+					API that uses machine learning to identify "Toxic" comments, making it easier to host better
+					conversations online.
+				</p>
+				<a href="{{url_for('apisentiment_form')}}"
+					class="cursor-pointer inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Visit</a>
+			</div>
+			<div class="block p-6 rounded-lg shadow-lg bg-gray-100 w-1/5 h-min">
+				<h5 class="text-gray-900 text-xl leading-tight font-medium mb-2">
+					Extract tweets according to hastag with
+					analysis using textblob
+				</h5>
+				<p class="text-gray-700 text-base mb-4">
+					It provides a consistent API for diving into common natural language processing (NLP) tasks such as
+					part-of-speech tagging, noun phrase extraction, sentiment analysis, and more.
+				</p>
+				<a href="{{url_for('csvfilecreate')}}"
+					class="cursor-pointer inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Visit</a>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
