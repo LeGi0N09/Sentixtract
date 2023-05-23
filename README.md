@@ -1,32 +1,63 @@
-# Data-Extraction-Sentiment-Analysis
-Emotion Analysis of any text | Twitter data extraction and sentiment analysis based on COVID data
+# Data Extraction & Sentiment Analysis :chart_with_upwards_trend: :mag_right:
 
-## Project Summary
+[![GitHub stars](https://img.shields.io/github/stars/LeGi0N09/Data-Extraction-Sentiment-Analysis)](https://github.com/LeGi0N09/Data-Extraction-Sentiment-Analysis/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/LeGi0N09/Data-Extraction-Sentiment-Analysis)](https://github.com/LeGi0N09/Data-Extraction-Sentiment-Analysis/network)
+[![GitHub license](https://img.shields.io/github/license/LeGi0N09/Data-Extraction-Sentiment-Analysis)](https://github.com/LeGi0N09/Data-Extraction-Sentiment-Analysis/blob/main/LICENSE)
 
-In this application, we have dashboard where all the
-information about our service will be given. Initially user gets 4 services which are:-
-  1. Extract Tweets
-  2. Sentiment Analysis based on COVID Model
-  3. Use case of Google Perspective API
-  4. Extract tweet with sentiment score
-Main aim is to provide easy data mining as well as basic sentiment analysis using
-different model as well as API.
+This project aims to provide easy data mining and basic sentiment analysis using various models and APIs. The application includes a dashboard that presents information about the provided services. The initial set of services includes:
 
-## Conclusion
+1. Extract Tweets
+2. Sentiment Analysis Based on COVID Model
+3. Use case of Google Perspective API
+4. Extract tweets with sentiment scores
 
-Nowadays, sentiment analysis or opinion mining is a hot topic in machine learning. We are
-still far to detect the sentiments of corpus of texts very accurately because of the complexity
-in the English language.
-In this project we tried to show the basic way of classifying tweets into positive or negative
-category using LSTM as baseline and how language models are related to the LSTM and
-can produce better results. We could further improve our classifier by trying to extract more
-features from the tweets, trying different kinds of features, tuning the parameters of the
-LSTM, TextBlob, perspective API classifier, or trying another classifier all together.
-As we know every coin have two sides, sentiment analysis is great but it’s a difficult task.
-The difficulty increases with increase in complexity of opinions expressed. In some of the
-fields like product reviews, face recognition, span filter etc. are relatively easy whereas
-fields like books, movies, art, music, indirect expressions of opinion are more difficult.
-Sentiment analysis is in demand because of its efficiency. Thousands of text documents
-can be processed for sentiment in seconds, compared to the hours by a team of people to
-manually complete it. It is so efficient, accurate and fast that many businesses are adopting
-text and sentiment analysis and incorporating it into their business processes.
+## Project Summary :clipboard:
+
+Nowadays, sentiment analysis or opinion mining is a hot topic in machine learning. This project demonstrates a basic way of classifying tweets into positive or negative categories using LSTM as a baseline model. The project also explores how language models are related to LSTM and can produce improved results. By leveraging different features, tuning parameters, and utilizing external APIs like the Google Perspective API, the classifier's performance can be further enhanced.
+
+## Getting Started :rocket:
+
+To use this application locally, please follow the instructions below:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/LeGi0N09/Data-Extraction-Sentiment-Analysis.git
+```
+
+2. Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Launch the application:
+
+```bash
+python app.py
+```
+
+4. Open your web browser and visit `http://localhost:5000` to access the dashboard.
+
+## Contributing :handshake:
+
+Contributions are welcome! If you have any ideas, suggestions, or bug fixes, please open an issue or submit a pull request.
+
+## License :page_with_curl:
+
+This project is licensed under the [MIT License](https://github.com/LeGi0N09/Data-Extraction-Sentiment-Analysis/blob/main/LICENSE).
+
+## Acknowledgements :clap:
+
+We would like to express our gratitude to the following resources:
+
+
+- [TensorFlow](https://www.tensorflow.org/) for providing the LSTM model.
+- [TextBlob](https://textblob.readthedocs.io/) for the sentiment analysis library.
+- [Google Perspective API](https://www.perspectiveapi.com/) for the perspective analysis capabilities.
+
+## Conclusion :raised_hands:
+
+Sentiment analysis is a challenging task due to the complexity of the English language. While this project showcases a basic approach to tweet classification using LSTM, there are many avenues for improvement, such as feature extraction, parameter tuning, and exploring alternative classifiers. Sentiment analysis is in high demand due to its efficiency, accuracy, and speed, making it a valuable tool for businesses across various domains.
+
+Feel free to explore the repository and leverage the provided services to extract data and analyze sentiments. Happy coding! :computer: :bar_chart:
