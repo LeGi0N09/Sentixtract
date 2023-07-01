@@ -1,8 +1,8 @@
-# Data Extraction & Sentiment Analysis :chart_with_upwards_trend: :mag_right:
+# Sentixtract :chart_with_upwards_trend: :mag_right:
 
-[![GitHub stars](https://img.shields.io/github/stars/LeGi0N09/Data-Extraction-Sentiment-Analysis)](https://github.com/LeGi0N09/Data-Extraction-Sentiment-Analysis/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/LeGi0N09/Data-Extraction-Sentiment-Analysis)](https://github.com/LeGi0N09/Data-Extraction-Sentiment-Analysis/network)
-[![GitHub license](https://img.shields.io/github/license/LeGi0N09/Data-Extraction-Sentiment-Analysis)](https://github.com/LeGi0N09/Data-Extraction-Sentiment-Analysis/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/LeGi0N09/Sentixtract)](https://github.com/LeGi0N09/Sentixtract/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/LeGi0N09/Sentixtract)](https://github.com/LeGi0N09/Sentixtract/network)
+[![GitHub license](https://img.shields.io/github/license/LeGi0N09/Sentixtract)](https://github.com/LeGi0N09/Sentixtract/blob/main/LICENSE)
 
 This project aims to provide easy data mining and basic sentiment analysis using various models and APIs. The application includes a dashboard that presents information about the provided services. The initial set of services includes:
 
@@ -22,7 +22,7 @@ To use this application locally, please follow the instructions below:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/LeGi0N09/Data-Extraction-Sentiment-Analysis.git
+git clone https://github.com/LeGi0N09/Sentixtract.git
 ```
 
 2. Install the required dependencies:
@@ -45,7 +45,7 @@ Contributions are welcome! If you have any ideas, suggestions, or bug fixes, ple
 
 ## License :page_with_curl:
 
-This project is licensed under the [MIT License](https://github.com/LeGi0N09/Data-Extraction-Sentiment-Analysis/blob/main/LICENSE).
+This project is licensed under the [MIT License](https://github.com/LeGi0N09/Sentixtract/blob/main/LICENSE).
 
 ## Acknowledgements :clap:
 
