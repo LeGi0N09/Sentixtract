@@ -8,7 +8,7 @@ This project aims to provide easy data mining and basic sentiment analysis using
 
 1. Extract Tweets
 2. Sentiment Analysis Based on COVID Model
-3. Use case of Google Perspective API
+3. Use the case of Google Perspective API
 4. Extract tweets with sentiment scores
 
 ## Project Summary :clipboard:
